@@ -1,0 +1,20 @@
+{
+  "name": "trusstime-back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "KyungMinJin",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "3.2.25",
+    "express": "4.17.1",
+    "nodemon": "2.0.2"
+  },
+  "engines": {
+    "node": "12.14.0",
+    "npm": "6.13.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm src/index.js"
+  }
+}
