@@ -1,6 +1,7 @@
 import Express from 'express';
 
 const app = Express();
+const PORT = process.env.PORT;
 
 app.get('/', (req, res) => {
   res.send('index page');
@@ -19,6 +20,6 @@ app.post('/write', function(req, res) {
   res.send(req.body);
 });
 
-app.listen(3000, () => {
-  console.log(`3000번 port에 http server를 띄웠습니다.`);
+app.listen(PORT, () => {
+  console.log(`${PORT} port에 http server를 띄웠습니다.`);
 });
