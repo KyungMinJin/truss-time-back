@@ -1,6 +1,6 @@
 import MySQL from 'mysql';
 
-const connect = MySQL.createConnection({
+const connection = MySQL.createConnection({
   host: 'us-cdbr-iron-east-04.cleardb.net',
   user: 'b36fc57ade02f1',
   password: '8489c862',
@@ -24,22 +24,29 @@ async function createBoardTable(conn) {
   );
   console.log('Create board table');
 }
+connection.connect();
 
-async function DBConfig() {
+export default async function DBConfig() {
   let conn, code;
   try {
-    conn = await connect.connect();
+    // conn = await connection.connect();
+    connection.query('SELECT * from member', function(err, rows, fields) {
+      if (!err) console.log('The solution is: ', rows);
+      else console.log('Error while performing Query.', err);
+    });
+
+    connection.end();
     console.log('Initialized!');
-    createMemberTable(conn);
-    createBoardTable(conn);
+    // createMemberTable(conn);
+    // createBoardTable(conn);
     code = 0;
   } catch (err) {
     code = 1;
   } finally {
     if (conn) {
       await conn.end();
+      console.log('db connect');
       process.exit(code);
     }
   }
 }
-DBConfig();
