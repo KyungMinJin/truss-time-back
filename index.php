@@ -28,10 +28,10 @@ Released   : 20130602
 	<div id="header-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="#">Home</a></li>
+				<li class="current_page_item"><a href="#"><h2>Home</h2></a></li>
 				<!-- <li><a href="miguhyun.php">공지사항</a></li> -->
-				<li><a href="timetable.php">합주시간표</a></li>
-				<li><a href="phones_auth.php">연락처</a></li>
+				<li><a href="timetable.php"><h2>합주시간표</h2></a></li>
+				<li><a href="phones_auth.php"><h2>연락처</h2></a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
@@ -73,12 +73,12 @@ Released   : 20130602
 					-->
 				</ul>
 			</div>
-			<div class="box2">
+			<!-- <div class="box2">
 				<div class="title">
 					<h2>행사 일정</h2>
 				</div>
 				<ul class="style2">
-					<li><a href="#">다음 행사가 뭐있징</a></li>
+					<li><a href="#">다음 행사가 뭐있징</a></li> -->
 					<!--
 					<li><a href="#">Ornare in hendrerit in lectus</a></li>
 					<li><a href="#">Semper mod quis eget mi dolore</a></li>
@@ -86,9 +86,9 @@ Released   : 20130602
 					<li><a href="#">Amet ornare in hendrerit in lectus</a></li>
 					<li><a href="#">Consequat etiam lorem phasellus</a></li>
 					-->
-				</ul>
+				<!-- </ul>
 			</div>
-			<br><br><br>
+			<br><br><br> -->
 			<div class="box3">
 				<div class="title">
 					<h2>오늘 합주</h2>
@@ -148,10 +148,10 @@ Released   : 20130602
 						}
 					?>
 			</div>
-			<div class="box4">
+			<!-- <div class="box4">
 				<div class="title">
 					<h2>다운로드</h2>
-				</div>
+				</div> -->
 				<!--
 				<ul class="style2">
 					<li><a href="https://www.dropbox.com/s/6w5rucv6k1hf3hy/kutruss_install_android.apk?dl=0"><img width="150px" src="download/android.png" /></a></li>
@@ -195,7 +195,7 @@ Released   : 20130602
 	</div>
 </div>
 <div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> |  28기 진경민 수정</p>
+	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> |  Edited by 28기 진경민</p>
 		<ul class="contact">
 			<!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
 			<li><a href="https://www.facebook.com/profile.php?id=100009047977821" class="icon icon-facebook"><span></span></a></li>
