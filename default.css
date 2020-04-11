@@ -164,7 +164,6 @@ ul.contact li a.icon-rss:before {
 
 .title {
   margin-bottom: 2em;
-  text-transform: uppercase;
 }
 
 .title h2 {
@@ -174,7 +173,6 @@ ul.contact li a.icon-rss:before {
 }
 
 .title .byline {
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 0.9em;
   color: #6f6f6f;
@@ -221,7 +219,6 @@ ul.contact li a.icon-rss:before {
   width: 500px;
   height: 125px;
   margin: 0 auto;
-  text-transform: uppercase;
 }
 
 #logo h1 {
@@ -280,7 +277,7 @@ ul.contact li a.icon-rss:before {
   padding: 0 40px;
   text-decoration: none;
   text-align: center;
-  text-transform: uppercase;
+
   font-size: 0.8em;
   font-weight: 600;
   border: none;
@@ -350,7 +347,6 @@ ul.contact li a.icon-rss:before {
 }
 
 #footer .byline {
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 0.9em;
   color: #6f6f6f;
@@ -368,7 +364,7 @@ ul.contact li a.icon-rss:before {
 
 #copyright p {
   text-align: center;
-  text-transform: uppercase;
+
   font-size: 0.8em;
   color: #6f6f6f;
 }
@@ -390,7 +386,6 @@ ul.contact li a.icon-rss:before {
 }
 
 #welcome h2 {
-  text-transform: uppercase;
   font-size: 2.6em;
 }
 
@@ -401,7 +396,7 @@ ul.contact li a.icon-rss:before {
 #welcome .byline {
   display: block;
   padding: 0em 0em 1.5em 0em;
-  text-transform: uppercase;
+
   font-weight: 400;
   font-size: 1.2em;
   color: #6f6f6f;
@@ -459,7 +454,6 @@ ul.contact li a.icon-rss:before {
   display: inline-block;
   padding: 1em 3em 1em 2em;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 0.9em;
   color: #fff;
