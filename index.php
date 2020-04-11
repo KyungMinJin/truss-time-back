@@ -28,10 +28,10 @@ Released   : 20130602
 	<div id="header-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="#"><h2>Home</h2></a></li>
+				<li class="current_page_item"><a href="#"><h1>Home</h1></a></li>
 				<!-- <li><a href="miguhyun.php">공지사항</a></li> -->
-				<li><a href="timetable.php"><h2>합주시간표</h2></a></li>
-				<li><a href="phones_auth.php"><h2>연락처</h2></a></li>
+				<li><a href="timetable.php"><h1>합주시간표</h1></a></li>
+				<li><a href="phones_auth.php"><h1>연락처</h1></a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
