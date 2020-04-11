@@ -168,14 +168,12 @@ ul.contact li a.icon-rss:before {
 }
 
 .title h2 {
-  letter-spacing: 0.2em;
   font-weight: 700;
   font-size: 2em;
   color: #171717;
 }
 
 .title .byline {
-  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.9em;
@@ -227,12 +225,10 @@ ul.contact li a.icon-rss:before {
 }
 
 #logo h1 {
-  letter-spacing: 0.1em;
   font-size: 3em;
 }
 
 #logo p {
-  letter-spacing: 0.1em;
   color: #292a28;
 }
 
@@ -280,7 +276,6 @@ ul.contact li a.icon-rss:before {
 
 #menu a {
   display: block;
-  letter-spacing: 1px;
   line-height: 100px;
   padding: 0 40px;
   text-decoration: none;
@@ -349,14 +344,12 @@ ul.contact li a.icon-rss:before {
 }
 
 #footer h2 {
-  letter-spacing: 0.2em;
   font-weight: 700;
   font-size: 2.4em;
   color: #fff;
 }
 
 #footer .byline {
-  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 0.9em;
@@ -374,7 +367,6 @@ ul.contact li a.icon-rss:before {
 }
 
 #copyright p {
-  letter-spacing: 0.2em;
   text-align: center;
   text-transform: uppercase;
   font-size: 0.8em;
@@ -398,7 +390,6 @@ ul.contact li a.icon-rss:before {
 }
 
 #welcome h2 {
-  letter-spacing: 0.2em;
   text-transform: uppercase;
   font-size: 2.6em;
 }
@@ -410,7 +401,6 @@ ul.contact li a.icon-rss:before {
 #welcome .byline {
   display: block;
   padding: 0em 0em 1.5em 0em;
-  letter-spacing: 0.15em;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 1.2em;
@@ -468,7 +458,6 @@ ul.contact li a.icon-rss:before {
 .button {
   display: inline-block;
   padding: 1em 3em 1em 2em;
-  letter-spacing: 0.2em;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
