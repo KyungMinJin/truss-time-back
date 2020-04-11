@@ -14,7 +14,7 @@ Released   : 20130602
 <head>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>고려대학교 TRUSS</title>
+<title>고려대학교 TRUSS 합주게시판</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="./default.css" rel="stylesheet" type="text/css" media="all" />
@@ -29,7 +29,7 @@ Released   : 20130602
 		<div id="menu" class="container">
 			<ul>
 				<li class="current_page_item"><a href="#">Home</a></li>
-				<li><a href="miguhyun.php">공지사항</a></li>
+				<!-- <li><a href="miguhyun.php">공지사항</a></li> -->
 				<li><a href="timetable.php">합주시간표</a></li>
 				<li><a href="phones_auth.php">연락처</a></li>
 			</ul>
@@ -195,7 +195,7 @@ Released   : 20130602
 	</div>
 </div>
 <div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> |  28기 진경민 수정</p>
 		<ul class="contact">
 			<!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
 			<li><a href="https://www.facebook.com/profile.php?id=100009047977821" class="icon icon-facebook"><span></span></a></li>
