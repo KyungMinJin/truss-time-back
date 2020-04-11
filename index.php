@@ -18,7 +18,7 @@ Released   : 20130602
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="./default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="./fonts.css" rel="stylesheet" type="text/css" media="all" />
+<!-- <link href="./fonts.css" rel="stylesheet" type="text/css" media="all" /> -->
 <!--[if IE 6]>
 <link href="default_ie6.css" rel="stylesheet" type="text/css" />
 <![endif]-->

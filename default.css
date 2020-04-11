@@ -30,9 +30,18 @@ p {
   line-height: 190%;
 }
 
-strong {
+body,
+th,
+td,
+input,
+select,
+textarea,
+button {
+  line-height: 1.5;
+  font-family: 나눔고딕, NanumGothic, 돋움, Dotum, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
 }
-
 a {
   color: #171717;
 }
@@ -336,7 +345,6 @@ ul.contact li a.icon-rss:before {
   overflow: hidden;
   padding: 5em 0em;
   text-align: center;
-  text-transform: uppercase;
   color: #6f6f6f;
 }
 
