@@ -67,5 +67,16 @@ Released   : 20130811
 
 	</div>
 	</div>
+	<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> |  Edited by 28기 진경민</p>
+		<ul class="contact">
+			<!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
+			<li><a href="https://www.facebook.com/profile.php?id=100009047977821" class="icon icon-facebook"><span></span></a></li>
+			<!--<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+			-->
+		</ul>
+</div>
 	</body>
 	</html>
