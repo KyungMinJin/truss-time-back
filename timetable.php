@@ -147,14 +147,14 @@ mysqli_free_result($data2);
 			if($result[$i] != ""){
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result[$i]."'");
 				$r_count = mysqli_num_rows($reply);
-				echo "<td class='info'><a href=\"search.php?teamname=$result[$i]\">".$result[$i]." (".$r_count.")</a></td>";
+				echo "<td class='info' style=\"background: #ae0034;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 				mysqli_free_result($reply);
 			}
 			// temp
 			else if($result_temp[$i] != ""){
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result_temp[$i]."'");
 				$r_count = mysqli_num_rows($reply);
-				echo "<td class='danger'><a href=\"search.php?teamname=$result_temp[$i]\">".$result_temp[$i]." (".$r_count.")</a></td>";
+				echo "<td class='danger' style=\"background: #ae0034;\"><a href=\"search.php?teamname=$result_temp[$i]\">".$result_temp[$i]."</a></td>";
 				mysqli_free_result($reply);
 			}
 			// no team
