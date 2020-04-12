@@ -14,7 +14,7 @@ Released   : 20130811
 <head>
 
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -26,7 +26,6 @@ Released   : 20130811
 <title>고려대학교 TRUSS</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -38,19 +37,18 @@ Released   : 20130811
 	<div id="header-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="miguhyun.php">공지사항</a></li>
-				<li class="current_page_item"><a href="timetable.php">합주시간표</a></li>
-				<li><a href="phones_auth.php">연락처</a></li>
+				<li><a href="index.php"><h1>Home</h1></a></li>
+				<!-- <li><a href="miguhyun.php">공지사항</a></li> -->
+				<li class="current_page_item"><a href="timetable.php"><h1>합주시간표</h1></a></li>
+				<li><a href="phones_auth.php"><h1>연락처</h1></a></li>
 			</ul>
 		</div>
 		<!-- end #menu -->
 		<div id="header" class="container">
 			<div id="logo">
-				<h1><a href="#" class="icon icon-music"> TRUSS</a></h1>
+				<h1><a href="#"> TRUSS</a></h1>
 				<p>True Romance under the six strings</p>
 			</div>
-			<div id="banner"> <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> </div>
 		</div>
 	</div>
 	<div>
@@ -100,16 +98,17 @@ mysqli_free_result($data2);
 <div id="header" class="container"><!-- style="width:100%; margin:0 auto;">-->
 <h1 class="icon icon-time" style="text-align:center"> 합주 시간표</h1>
 <a href="write.php"><p style="text-align:right; color:red;">합주팀 등록</p></a>
-<table class="table table-bordered table-hover">
+<div class="timetable" style="width: 100vw">
+<table class="table">
 	<tr align="center">
-		<td width="80">시작 시간</td>
-		<td width="110">월</td>
-		<td width="110">화</td>
-		<td width="110">수</td>
-		<td width="110">목</td>
-		<td width="110">금</td>
-		<td width="110">토</td>
-		<td width="110">일</td>
+		<th width="80">시작 시간</td>
+		<th width="110">월</th>
+		<th width="110">화</th>
+		<th width="110">수</th>
+		<th width="110">목</th>
+		<th width="110">금</th>
+		<th width="110">토</th>
+		<th width="110">일</th>
 	</tr>
 <?php
 	$query = "SELECT * FROM timetable";
@@ -168,6 +167,7 @@ mysqli_free_result($data2);
 
 ?>
 </table>
+</div>
 </div>
 </div>
 </div>

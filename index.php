@@ -37,7 +37,7 @@ Released   : 20130602
 		<!-- end #menu -->
 		<div id="header" class="container">
 			<div id="logo">
-				<h1><a href="#" class="icon icon-music"> TRUSS</a></h1>
+				<h1><a href="#"> TRUSS</a></h1>
 				<p>True Romance under the six strings</p>
 			</div>
 			<div id="banner"> <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> </div>

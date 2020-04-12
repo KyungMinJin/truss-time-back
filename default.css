@@ -90,6 +90,26 @@ ul.style2 li:first-child {
   padding-top: 0;
 }
 
+.timetable table {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+}
+tr:hover {
+  background-color: #8e8e8e;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #25292b;
+  color: white;
+}
 /*********************************************************************************/
 /* Social Icon Styles                                                            */
 /*********************************************************************************/
