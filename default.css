@@ -96,17 +96,17 @@ ul.style2 li:first-child {
   justify-content: center;
   border-collapse: collapse;
 }
-th,
-td {
+.timetable th,
+.timetable td {
   padding: 10px;
 }
-tr:hover {
+.timetable tr:hover {
   background-color: #8e8e8e;
 }
-tr:nth-child(even) {
+.timetable tr:nth-child(even) {
   background-color: #f2f2f2;
 }
-th {
+.timetable th {
   background-color: #25292b;
   color: white;
 }
