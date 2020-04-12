@@ -71,17 +71,17 @@ Released   : 20130811
 <tr class="danger">
 	<td style="width:20%">기수</td><td style="width:25%">이름</td><td style="width:45%">연락처</td><td></td>
 </tr>
-<?php
-	if($isitOK){
-		include 'db_info.php';
-		$query = "SELECT * FROM phone ORDER BY th DESC";
-		$data = mysqli_query($connect, $query);
-		while($result = mysqli_fetch_array($data)){
-			echo '<tr><td>'.$result[2].'</td><td>'.$result[0].'</td><td>'.$result[1].'</td><td>삭제</td></tr>';
-		}
-		mysqli_free_result($data);
-	}
-?>
+<!-- <?php
+	// if($isitOK){
+	// 	include 'db_info.php';
+	// 	$query = "SELECT * FROM phone ORDER BY th DESC";
+	// 	$data = mysqli_query($connect, $query);
+	// 	while($result = mysqli_fetch_array($data)){
+	// 		echo '<tr><td>'.$result[2].'</td><td>'.$result[0].'</td><td>'.$result[1].'</td><td>삭제</td></tr>';
+	// 	}
+	// 	mysqli_free_result($data);
+	// }
+?> -->
 </table>
 </div>
 </form>
