@@ -147,7 +147,7 @@ mysqli_free_result($data2);
 			if($result[$i] != ""){
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result[$i]."'");
 				$r_count = mysqli_num_rows($reply);
-				echo "<td class=".$result[$i]." style=\"background: #f2738c; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
+				echo "<td class=".$i." style=\"background: #f2738c; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 				mysqli_free_result($reply);
 			}
 			// temp
@@ -160,7 +160,7 @@ mysqli_free_result($data2);
 			// no team
 			else echo "<td><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 
-			echo '<script>console.log('.$result[$i].')</script>';
+			echo '<script>console.log('.$result.')</script>';
 		}// for day
 	}// for clock
 	echo "</tr>";
@@ -190,6 +190,8 @@ mysqli_free_result($data2);
 	function myFunc() {
 		var colorCode = "#" + (Math.random()*0xffffff).toString(16);
 
-		document.getElementsByClassName('info').style.color = colorCode;
+		for(i = 0; i< $result.length; i++) {
+			document.getElementsByClassName(i).style.color = colorCode;
+		}
 	}
 </script>
