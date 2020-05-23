@@ -57,6 +57,7 @@ Released   : 20130811
 <?php
 include 'db_info.php';
 // temp team check and destroy
+$color;
 date_default_timezone_set("Asia/Seoul");
 $today = date("Y년 m월 d일");
 $query = "SELECT teamname FROM team WHERE istemp='true' and timelimit<'$today'";
@@ -145,9 +146,12 @@ mysqli_free_result($data2);
 		for($i=1;$i<8;$i++){
 			// regular
 			if($result[$i] != ""){
+				if ($color[$result[$i]] != ''){
+					$color[$result[$i]] = sprintf('#%06X', mt_rand(0, 0xFFFFFF));
+				}
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result[$i]."'");
 				$r_count = mysqli_num_rows($reply);
-				echo "<td class=".$i." style=\"background: #f2738c; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
+				echo "<td class=".$result[$i]." style=\"background: ".$color[$result[$i]]."; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 				mysqli_free_result($reply);
 			}
 			// temp
@@ -164,6 +168,7 @@ mysqli_free_result($data2);
 		}// for day
 	}// for clock
 	echo "</tr>";
+
 	mysqli_free_result($data);
 	mysqli_close($connect);
 
@@ -186,12 +191,3 @@ mysqli_free_result($data2);
 </div>
 </body>
 </html>
-<script>
-	function myFunc() {
-		var colorCode = "#" + (Math.random()*0xffffff).toString(16);
-
-		for(i = 0; i< $result.length; i++) {
-			document.getElementsByClassName(i).style.color = colorCode;
-		}
-	}
-</script>
