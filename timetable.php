@@ -148,7 +148,7 @@ mysqli_free_result($data2);
 			if($result[$i] != ""){
 				echo '<script>console.log('.$color[$result[$i]].')</script>';
 
-				if ($color[$result[$i]] != ''){
+				if ($color[$result[$i]] == null){
 					$color[$result[$i]] = sprintf('#%06X', mt_rand(0, 0xFFFFFF));
 				}
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result[$i]."'");
