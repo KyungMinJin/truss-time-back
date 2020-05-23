@@ -146,6 +146,8 @@ mysqli_free_result($data2);
 		for($i=1;$i<8;$i++){
 			// regular
 			if($result[$i] != ""){
+				echo '<script>console.log('.$color[$result[$i]].')</script>';
+
 				if ($color[$result[$i]] != ''){
 					$color[$result[$i]] = sprintf('#%06X', mt_rand(0, 0xFFFFFF));
 				}
@@ -164,7 +166,6 @@ mysqli_free_result($data2);
 			// no team
 			else echo "<td><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 
-			echo '<script>console.log('.$result.')</script>';
 		}// for day
 	}// for clock
 	echo "</tr>";
