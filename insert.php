@@ -16,30 +16,30 @@
 	$start = array();
 	$end = array();
 
-	// for($i=0;$i<7;$i++){ // time vaild check
-	// 	$dayday = $week[$i];
-	// 	$start_time = $_POST[$week[$i]."_start"];
-	// 	$end_time = $_POST[$week[$i]."_end"];
-	// 	$start[$i] = $start_time;
-	// 	$end[$i] = $end_time;
+	for($i=0;$i<7;$i++){ // time vaild check
+		$dayday = $week[$i];
+		$start_time = $_POST[$week[$i]."_start"];
+		$end_time = $_POST[$week[$i]."_end"];
+		$start[$i] = $start_time;
+		$end[$i] = $end_time;
 
-	// 	if($_POST[$dayday."_end"] == 0){
-	// 		$count++;
-	// 		continue;
-	// 	}
-	// 	//db check
-	// 	$query = "SELECT * FROM teamtime WHERE $dayday"."_start < $end_time and $dayday"."_end > $start_time";
-	// 	$time_check = mysqli_query($connect, $query);
-	// 	if(mysqli_num_rows($time_check) != 0){
-	// 		mysqli_free_result($time_check);
-	// 		echo "<script>alert('합주시간이 다른 팀과 겹칩니다.'); history.go(-1);</script>";
-	// 		$isitOK = false;
-	// 	}
-	// }
-	// if($count == 7){
-	// 	echo "<script>alert('합주 시간이 지정되지 않았습니다.'); history.go(-1);</script>";
-	// 	$isitOK = false;
-	// }
+		if($_POST[$dayday."_end"] == 0){
+			$count++;
+			continue;
+		}
+		//db check
+		$query = "SELECT * FROM teamtime WHERE $dayday"."_start < $end_time and $dayday"."_end > $start_time";
+		$time_check = mysqli_query($connect, $query);
+		if(mysqli_num_rows($time_check) != 0){
+			mysqli_free_result($time_check);
+			echo "<script>alert('합주시간이 다른 팀과 겹칩니다.'); history.go(-1);</script>";
+			$isitOK = false;
+		}
+	}
+	if($count == 7){
+		echo "<script>alert('합주 시간이 지정되지 않았습니다.'); history.go(-1);</script>";
+		$isitOK = false;
+	}
 
 	// get data from 'write.php' by 'POST' method
 	$teamname = $_POST['teamname'];
