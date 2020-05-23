@@ -159,6 +159,8 @@ mysqli_free_result($data2);
 			}
 			// no team
 			else echo "<td><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
+
+			echo '<script>console.log('.$result[$i].')</script>';
 		}// for day
 	}// for clock
 	echo "</tr>";
