@@ -147,7 +147,7 @@ mysqli_free_result($data2);
 			if($result[$i] != ""){
 				$reply = mysqli_query($connect, "SELECT * FROM reply WHERE teamname='".$result[$i]."'");
 				$r_count = mysqli_num_rows($reply);
-				echo "<td class='info' style=\"background: #f2738c; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
+				echo "<td class=".$result[$i]." style=\"background: #f2738c; color: white;\"><a href=\"search.php?teamname=$result[$i]\">".$result[$i]."</a></td>";
 				mysqli_free_result($reply);
 			}
 			// temp
@@ -186,3 +186,10 @@ mysqli_free_result($data2);
 </div>
 </body>
 </html>
+<script>
+	function myFunc() {
+		var colorCode = "#" + (Math.random()*0xffffff).toString(16);
+
+		document.getElementsByClassName('info').style.color = colorCode;
+	}
+</script>
