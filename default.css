@@ -277,13 +277,12 @@ ul.contact li a.icon-rss:before {
 }
 
 #menu a {
-  display: block;
+  /* display: block;
   line-height: 100px;
   padding: 0 40px;
+  text-align: center; */
   text-decoration: none;
-  text-align: center;
 
-  font-size: 0.8em;
   font-weight: 600;
   border: none;
   color: #fff;
