@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
 <body>
-<form action="addadd.php" method="post" enctype="multipart/form-data" />
+<form action="addadd.php" method="post" enctype="multipart/form-data" >
 <input name="truss_ck" value="carbon12" type="hidden">
 <?php
 	include 'db_info.php';
