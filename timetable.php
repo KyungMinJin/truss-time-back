@@ -42,18 +42,22 @@ Released   : 20130811
         <div id="header-wrapper">
             <div id="menu" class="container">
                 <span style="font-size: 3em;">TRUSS</span>
-                <ul>
-                    <li><a href="index.php">
-                            <h1>Home</h1>
-                        </a></li>
+                <span>
+                    <a href="index.php">
+                        <h1>Home</h1>
+                    </a>
                     <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
-                    <li class="current_page_item"><a href="timetable.php">
-                            <h1>합주시간표</h1>
-                        </a></li>
-                    <li><a href="phones_auth.php">
-                            <h1>연락처</h1>
-                        </a></li>
-                </ul>
+                    <!-- <li class="current_page_item"> -->
+                    <a href="timetable.php">
+                        <h1>합주시간표</h1>
+                    </a>
+                    <!-- </li> -->
+                    <!-- <li> -->
+                    <a href="phones_auth.php">
+                        <h1>연락처</h1>
+                    </a>
+                    <!-- </li> -->
+                </span>
             </div>
             <!-- end #menu -->
             <!-- <div id="header" class="container">
