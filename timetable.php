@@ -48,12 +48,12 @@ Released   : 20130811
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
                         <a href="timetable.php" class="current_page_item">
-                            <h1>합주시간표</h1>
+                            <h2>합주시간표</h2>
                         </a>
                         <!-- </li> -->
                         <!-- <li> -->
                         <a href="phones_auth.php">
-                            <h1>연락처</h1>
+                            <h2>연락처</h2>
                         </a>
                     </div>
                     <!-- </li> -->
