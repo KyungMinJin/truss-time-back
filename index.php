@@ -31,11 +31,8 @@ Released   : 20130602
             <div id="menu" class="container">
                 <div id="header-inner"
                     style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto;">
-                    <div style="font-size: 3em; font-weight:600; color:white;">TRUSS</div>
+                    <div style="font-size: 3em; font-weight:600; color:white;"><a href="index.php">TRUSS</a></div>
                     <div style="display:flex;">
-                        <a href="index.php">
-                            <h1>Home</h1>
-                        </a>
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
                         <a href="timetable.php" class="current_page_item">
