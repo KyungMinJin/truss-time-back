@@ -40,8 +40,8 @@ Released   : 20130811
 <body>
     <div id="wrapper">
         <div id="header-wrapper">
-            <div id="header-inner" style="display:flex; max-width: 1080px; align-items:center;">
-                <div id="menu" class="container">
+            <div id="menu" class="container">
+                <div id="header-inner" style="display:flex; max-width: 1080px; align-items:center;">
                     <div style="font-size: 3em; font-weight:600; color:white;">TRUSS</div>
                     <a href="index.php">
                         <h1>Home</h1>
