@@ -41,6 +41,7 @@ Released   : 20130811
     <div id="wrapper">
         <div id="header-wrapper">
             <div id="menu" class="container">
+                <span style="font-size: 3em;">TRUSS</span>
                 <ul>
                     <li><a href="index.php">
                             <h1>Home</h1>
@@ -55,12 +56,12 @@ Released   : 20130811
                 </ul>
             </div>
             <!-- end #menu -->
-            <div id="header" class="container">
+            <!-- <div id="header" class="container">
                 <div id="logo">
                     <h1><a href="#"> TRUSS</a></h1>
                     <p>True Romance under the six strings</p>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div>
             <br>
@@ -113,7 +114,7 @@ mysqli_free_result($data2);
                 <div
                     style="display: flex; flex-direction: row-reverse; max-width: 1080px; margin: 10px auto; vertical-align:middle;">
                     <div
-                        style="width: 100px; height: 40px; border: 1px solid black; border-radius: 20px; text-align:center;">
+                        style="width: 100px; height: 40px; border: 1px solid black; border-radius: 20px; display: flex; justify-content: center; align-items: center;">
                         <a href="write.php">합주팀 등록</a>
                     </div>
                 </div>
