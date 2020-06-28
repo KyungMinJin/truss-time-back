@@ -109,12 +109,12 @@ mysqli_free_result($data2);
             <br>
             <div id="header" class="container">
                 <!-- style="width:100%; margin:0 auto;">-->
-                <h1 class="icon icon-time" style="text-align:center"> 합주 시간표</h1>
-                <div style="position: absolute; right:0; max-width: 1080px; margin: 10px auto; vertical-align:middle;">
-                    <div style="width: 100px; height: 40px; border-radius: 20px; text-align:center;">
-                        <a href="write.php">
-                            <p>합주팀 등록</p>
-                        </a>
+                <h1 style="text-align:center"> 합주 시간표</h1>
+                <div
+                    style="display: flex; flex-direction: row-reverse; max-width: 1080px; margin: 10px auto; vertical-align:middle;">
+                    <div
+                        style="width: 100px; height: 40px; border: 1px solid black; border-radius: 20px; text-align:center;">
+                        <a href="write.php">합주팀 등록</a>
                     </div>
                 </div>
                 <div class="timetable" style="width: 100vw">
@@ -203,7 +203,7 @@ mysqli_free_result($data2);
         <ul class="contact">
             <!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
             <li><a href="https://www.facebook.com/profile.php?id=100009047977821"><img src="images/facebook-logo.png"
-                        style="width:40px; height:40px;" /></a></li>
+                        style="height:40px;" /></a></li>
             <!--<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
 			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
 			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
