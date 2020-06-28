@@ -286,12 +286,12 @@ ul.contact li a.icon-rss:before {
 }
 
 #menu a:hover,
-#menu .current_page_item a {
+#menu .current_page_item {
   text-decoration: none;
   background: #ae0034;
 }
 
-#menu .current_page_item a {
+#menu .current_page_item {
   /*background: #FFC31F;*/
   background: #ae0034;
 }
