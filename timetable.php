@@ -40,9 +40,9 @@ Released   : 20130811
 <body>
     <div id="wrapper">
         <div id="header-wrapper">
-            <div id="menu" class="container">
-                <span style="font-size: 3em; font-weight:600; color:white;">TRUSS</span>
-                <span>
+            <div id="header-inner" style="display:flex; max-width: 1080px; align-items:center;">
+                <div id="menu" class="container">
+                    <div style="font-size: 3em; font-weight:600; color:white;">TRUSS</div>
                     <a href="index.php">
                         <h1>Home</h1>
                     </a>
@@ -57,15 +57,15 @@ Released   : 20130811
                         <h1>연락처</h1>
                     </a>
                     <!-- </li> -->
-                </span>
-            </div>
-            <!-- end #menu -->
-            <!-- <div id="header" class="container">
-                <div id="logo">
-                    <h1><a href="#"> TRUSS</a></h1>
-                    <p>True Romance under the six strings</p>
                 </div>
-            </div> -->
+                <!-- end #menu -->
+                <!-- <div id="header" class="container">
+					<div id="logo">
+						<h1><a href="#"> TRUSS</a></h1>
+						<p>True Romance under the six strings</p>
+					</div>
+				</div> -->
+            </div>
         </div>
         <div>
             <br>
