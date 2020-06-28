@@ -41,7 +41,7 @@ Released   : 20130811
     <div id="wrapper">
         <div id="header-wrapper">
             <div id="menu" class="container">
-                <span style="font-size: 3em;">TRUSS</span>
+                <span style="font-size: 3em; font-weight:600; color:white;">TRUSS</span>
                 <span>
                     <a href="index.php">
                         <h1>Home</h1>

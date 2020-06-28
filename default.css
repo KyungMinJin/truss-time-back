@@ -277,11 +277,8 @@ ul.contact li a.icon-rss:before {
 }
 
 #menu a {
-  /* display: block;
-  line-height: 100px;
-  padding: 0 40px;
-  text-align: center; */
   text-decoration: none;
+  padding: 0 40px;
 
   font-weight: 600;
   border: none;
