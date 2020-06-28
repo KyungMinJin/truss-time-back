@@ -41,7 +41,8 @@ Released   : 20130811
     <div id="wrapper">
         <div id="header-wrapper">
             <div id="menu" class="container">
-                <div id="header-inner" style="display:flex; max-width: 1080px; align-items:center; margin: 0 auto;">
+                <div id="header-inner"
+                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto;">
                     <div style="font-size: 3em; font-weight:600; color:white;">TRUSS</div>
                     <div style="display:flex;">
                         <a href="index.php">

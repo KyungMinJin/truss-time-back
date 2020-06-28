@@ -29,26 +29,33 @@ Released   : 20130602
     <div id="wrapper">
         <div id="header-wrapper">
             <div id="menu" class="container">
-                <ul>
-                    <li class="current_page_item"><a href="#">
+                <div id="header-inner"
+                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto;">
+                    <div style="font-size: 3em; font-weight:600; color:white;">TRUSS</div>
+                    <div style="display:flex;">
+                        <a href="index.php">
                             <h1>Home</h1>
-                        </a></li>
-                    <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
-                    <li><a href="timetable.php">
+                        </a>
+                        <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
+                        <!-- <li class="current_page_item"> -->
+                        <a href="timetable.php" class="current_page_item">
                             <h1>합주시간표</h1>
-                        </a></li>
-                    <li><a href="phones_auth.php">
+                        </a>
+                        <!-- </li> -->
+                        <!-- <li> -->
+                        <a href="phones_auth.php">
                             <h1>연락처</h1>
-                        </a></li>
-                </ul>
-            </div>
-            <!-- end #menu -->
-            <div id="header" class="container">
-                <div id="logo">
-                    <h1><a href="#"> TRUSS</a></h1>
-                    <p>True Romance under the six strings</p>
+                        </a>
+                    </div>
+                    <!-- </li> -->
                 </div>
-                <div id="banner"> <a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a> </div>
+                <!-- end #menu -->
+                <!-- <div id="header" class="container">
+					<div id="logo">
+						<h1><a href="#"> TRUSS</a></h1>
+						<p>True Romance under the six strings</p>
+					</div>
+				</div> -->
             </div>
         </div>
         <div id="page" class="container">
@@ -59,10 +66,13 @@ Released   : 20130602
                 </div>
                 <span class="image image-full"><img src="main.png" alt="" /></span>
                 <h3>학번·전공·실력 무관, 모두를 위한 고려대학교 중앙 밴드 동아리<h3>
-                        <p>TRUSS는 고려대학교를 대표하는 중앙 밴드 동아리로, 현재 애기능동아리연합회에 소속되어 이공캠퍼스의 애기능학생회관 지하101호에 자리하고 있습니다. 슬로건에서도 알
-                            수 있듯 음악을 향한 열정을 지닌 고려대학교 학우라면 학번, 전공, 실력과 관계없이 누구나 TRUSS에 가입 및 활동할 수 있으며, 이 같은 개방성을 통해 창조적
+                        <p>TRUSS는 고려대학교를 대표하는 중앙 밴드 동아리로, 현재 애기능동아리연합회에 소속되어 이공캠퍼스의 애기능학생회관 지하101호에 자리하고 있습니다.
+                            슬로건에서도 알
+                            수 있듯 음악을 향한 열정을 지닌 고려대학교 학우라면 학번, 전공, 실력과 관계없이 누구나 TRUSS에 가입 및 활동할 수 있으며, 이 같은 개방성을 통해
+                            창조적
                             대학 문화 발전에 기여함을 목적으로 두고 있습니다.</p>
-                        <p>동아리의 이름인 TRUSS는 ‘직선봉을 삼각형으로 조립한 골조구조’를 뜻하는 단어로, 1990년대 초 토목공학과 학생회 소모임이었던 시절부터 현재까지 30년 가까이
+                        <p>동아리의 이름인 TRUSS는 ‘직선봉을 삼각형으로 조립한 골조구조’를 뜻하는 단어로, 1990년대 초 토목공학과 학생회 소모임이었던 시절부터 현재까지 30년
+                            가까이
                             유지되며 동아리의 역사성을 상징하고 있습니다.
                         </p>
                         <!-- <p>This is 그냥존나 <strong>Rock Band</strong>! 현재 트러스의 슬로건인 오픈밴드라는 명칭은 중앙 밴드 동아리 중 가입 오디션이 없으며 <del style="color:gray">보컬뽑는다면서 노래방 단체로 가서 못부르는사람은 악기세션으로 돌리자나</del> 가입이 자유로운 밴드라는 점에 기인하여 붙은 명칭이다. 실제로 신입생 가입 기준이 없으며 매년 초에 한 번 신입기수를 뽑지만 학번 제한 같은 것도 없어 신입생과 4~5학번 차이나는 고학번이 동아리 신입으로 가입하기도 한다.</p> -->
@@ -188,10 +198,13 @@ Released   : 20130602
                     <div class="title">
                         <h2>신입생 환영회 / 총 MT</h2>
                     </div>
-                    <p>TRUSS는 2년의 필수 활동 기간 중 신입기수와 2년차인 운영기수 내에서 6팀을 이루어 활동하며, 주요 행사로는 총MT, 워크샵, 대천 합숙 훈련, 정기 공연, 기장 엠티가
-                        있습니다. 정규 활동 이외에도 현역, OB 구분 없이 다양한 장르를 파고드는 취미팀 활동과, 30살을 맞은 OB 멤버들이 펼치는 연말 서른공연 등이 존재해 열정만 있다면
+                    <p>TRUSS는 2년의 필수 활동 기간 중 신입기수와 2년차인 운영기수 내에서 6팀을 이루어 활동하며, 주요 행사로는 총MT, 워크샵, 대천 합숙 훈련, 정기 공연, 기장
+                        엠티가
+                        있습니다. 정규 활동 이외에도 현역, OB 구분 없이 다양한 장르를 파고드는 취미팀 활동과, 30살을 맞은 OB 멤버들이 펼치는 연말 서른공연 등이 존재해 열정만
+                        있다면
                         남은 생에 무한한 공연 기회를 얻으실 수 있습니다.</p>
-                    <p>신입 기수 리크루팅이 완료된 이후 4월 초 우이동에서 진행되는 TRUSS의 첫 공식 행사로, 먹고 마시고 이야기하며 멤버들이 서로를 알아가고 친분을 다지게 됩니다.</p>
+                    <p>신입 기수 리크루팅이 완료된 이후 4월 초 우이동에서 진행되는 TRUSS의 첫 공식 행사로, 먹고 마시고 이야기하며 멤버들이 서로를 알아가고 친분을 다지게 됩니다.
+                    </p>
                     <!-- <a href="#" class="icon icon-arrow-right button">Read More</a> -->
                 </div>
                 <div id="column2">
@@ -199,15 +212,18 @@ Released   : 20130602
                         <h2>워크샵 / 1학기 정기공연</h2>
                     </div>
                     <p>1학기 정기공연팀에서 신입과 현역이 호흡을 맞추는 첫 공연입니다. 각 팀은 4월 말 동방에서 자신들이 그간 연습한 1~2곡을 선보입니다.</p>
-                    <p>1학기의 메인 행사로, 라이브클럽에서 정기공연팀들이 한 학기 동안 연습한 2~3곡으로 공연을 진행하게 됩니다. 5년차 OB팀과 취미팀도 함께 무대를 꾸며 나갑니다.</p>
+                    <p>1학기의 메인 행사로, 라이브클럽에서 정기공연팀들이 한 학기 동안 연습한 2~3곡으로 공연을 진행하게 됩니다. 5년차 OB팀과 취미팀도 함께 무대를 꾸며 나갑니다.
+                    </p>
                     <!-- <a href="#" class="icon icon-arrow-right button">Read More</a> -->
                 </div>
                 <div id="column3">
                     <div class="title">
                         <h2>대천 합숙 / 2학기 정기공연</h2>
                     </div>
-                    <p>TRUSS 활동의 하이라이트 중 하나로, 8월 초중반 2학기 정기공연팀을 이루는 신입기수와 운영기수가 함께 고려대학교 대천수련원에서 3박4일 합숙훈련을 진행합니다. 바다에서
-                        놀거나 함께 음식을 만들어 먹기도 하고, 따로 마련된 공간에서 합주를 하게 되며, 마지막 날 오후에는 OB들 앞에서 그동안 연습한 것들을 연주하며 피드백을 받습니다.</p>
+                    <p>TRUSS 활동의 하이라이트 중 하나로, 8월 초중반 2학기 정기공연팀을 이루는 신입기수와 운영기수가 함께 고려대학교 대천수련원에서 3박4일 합숙훈련을 진행합니다.
+                        바다에서
+                        놀거나 함께 음식을 만들어 먹기도 하고, 따로 마련된 공간에서 합주를 하게 되며, 마지막 날 오후에는 OB들 앞에서 그동안 연습한 것들을 연주하며 피드백을 받습니다.
+                    </p>
                     <p>매년 10월 말 또는 11월 초 418기념관이나 인촌기념관에서 2학기 정기공연팀들과 5년차 OB팀이 무대를 선보입니다. TRUSS의 연례 행사들 중 가장 중요한 이벤트
                         여겨집니다.</p>
                     <!-- <a href="#" class="icon icon-arrow-right button">Read More</a> -->
@@ -216,7 +232,8 @@ Released   : 20130602
                     <div class="title">
                         <h2>기장선거 MT</h2>
                     </div>
-                    <p>1년의 행사 중 2년차 운영기수가 주관하는 마지막 행사입니다. 이 자리에서 다음 한 해 동안 동아리를 이끌어 나갈 해당 기수의 대표, 즉 기장, 부기장과 회계부장을 선출하게
+                    <p>1년의 행사 중 2년차 운영기수가 주관하는 마지막 행사입니다. 이 자리에서 다음 한 해 동안 동아리를 이끌어 나갈 해당 기수의 대표, 즉 기장, 부기장과 회계부장을
+                        선출하게
                         되며, 선거 종료와 함께 운영기수 멤버들은 명예회원(OB)으로의 활동을 시작하게 됩니다.</p>
                     <!-- <a href="#" class="icon icon-arrow-right button">Read More</a> -->
                 </div>
