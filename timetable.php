@@ -11,50 +11,61 @@ Released   : 20130811
 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
-<!-- Latest compiled and minified CSS -->
-<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+    </script>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>고려대학교 TRUSS</title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>고려대학교 TRUSS</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+    <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
 </head>
-<body>
-<div id="wrapper">
-	<div id="header-wrapper">
-		<div id="menu" class="container">
-			<ul>
-				<li><a href="index.php"><h1>Home</h1></a></li>
-				<!-- <li><a href="miguhyun.php">공지사항</a></li> -->
-				<li class="current_page_item"><a href="timetable.php"><h1>합주시간표</h1></a></li>
-				<li><a href="phones_auth.php"><h1>연락처</h1></a></li>
-			</ul>
-		</div>
-		<!-- end #menu -->
-		<div id="header" class="container">
-			<div id="logo">
-				<h1><a href="#"> TRUSS</a></h1>
-				<p>True Romance under the six strings</p>
-			</div>
-		</div>
-	</div>
-	<div>
-	<br>
 
-<?php
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="menu" class="container">
+                <ul>
+                    <li><a href="index.php">
+                            <h1>Home</h1>
+                        </a></li>
+                    <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
+                    <li class="current_page_item"><a href="timetable.php">
+                            <h1>합주시간표</h1>
+                        </a></li>
+                    <li><a href="phones_auth.php">
+                            <h1>연락처</h1>
+                        </a></li>
+                </ul>
+            </div>
+            <!-- end #menu -->
+            <div id="header" class="container">
+                <div id="logo">
+                    <h1><a href="#"> TRUSS</a></h1>
+                    <p>True Romance under the six strings</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <br>
+
+            <?php
 include 'db_info.php';
 // temp team check and destroy
 $color;
@@ -95,23 +106,30 @@ while($result = mysqli_fetch_array($data)){
 mysqli_free_result($data);
 mysqli_free_result($data2);
 ?>
-<br>
-<div id="header" class="container"><!-- style="width:100%; margin:0 auto;">-->
-<h1 class="icon icon-time" style="text-align:center"> 합주 시간표</h1>
-<a href="write.php"><p style="text-align:right; color:red;">합주팀 등록</p></a>
-<div class="timetable" style="width: 100vw">
-<table class="table">
-	<tr align="center">
-		<th width="80">시작 시간</td>
-		<th width="110">월</th>
-		<th width="110">화</th>
-		<th width="110">수</th>
-		<th width="110">목</th>
-		<th width="110">금</th>
-		<th width="110">토</th>
-		<th width="110">일</th>
-	</tr>
-<?php
+            <br>
+            <div id="header" class="container">
+                <!-- style="width:100%; margin:0 auto;">-->
+                <h1 class="icon icon-time" style="text-align:center"> 합주 시간표</h1>
+                <div style="position: absolute; right:0; max-width: 1080px; margin: 10px auto; vertical-align:middle;">
+                    <div style="width: 100px; height: 40px; border-radius: 20px; text-align:center;">
+                        <a href="write.php">
+                            <p>합주팀 등록</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="timetable" style="width: 100vw">
+                    <table class="table">
+                        <tr align="center">
+                            <th width="80">시작 시간</td>
+                            <th width="110">월</th>
+                            <th width="110">화</th>
+                            <th width="110">수</th>
+                            <th width="110">목</th>
+                            <th width="110">금</th>
+                            <th width="110">토</th>
+                            <th width="110">일</th>
+                        </tr>
+                        <?php
 	$query = "SELECT * FROM timetable";
 	$data = mysqli_query($connect, $query);
 	$query = "SELECT * FROM timetable_temp";
@@ -139,10 +157,10 @@ mysqli_free_result($data2);
 		$time .= $hour.":".$minute;
 ?>
 
-	<tr align="center">
-	<td align="right"><?php echo $time; ?></td>
+                        <tr align="center">
+                            <td align="right"><?php echo $time; ?></td>
 
-<?php
+                            <?php
 		for($i=1;$i<8;$i++){
 			// regular
 			if($result[$i] != ""){
@@ -174,21 +192,24 @@ mysqli_free_result($data2);
 	mysqli_close($connect);
 
 ?>
-</table>
-</div>
-</div>
-</div>
-</div>
-<div id="copyright" class="container">
-	<p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> |  Edited by 28기 진경민</p>
-		<ul class="contact">
-			<!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
-			<li><a href="https://www.facebook.com/profile.php?id=100009047977821" class="icon icon-facebook"><span></span></a></li>
-			<!--<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyright" class="container">
+        <p>&copy; Truss. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co"
+                rel="nofollow">TEMPLATED</a> | Edited by 28기 진경민</p>
+        <ul class="contact">
+            <!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
+            <li><a href="https://www.facebook.com/profile.php?id=100009047977821"><img src="images/facebook-logo.png"
+                        style="width:40px; height:40px;" /></a></li>
+            <!--<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
 			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
 			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
 			-->
-		</ul>
-</div>
+        </ul>
+    </div>
 </body>
+
 </html>
