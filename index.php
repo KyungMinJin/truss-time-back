@@ -56,7 +56,7 @@ Released   : 20130602
             </div>
         </div>
         <div id="page" class="container">
-            <div id="content">
+            <div id="content" style="width: 75% !important;">
                 <div class="title">
                     <h2>고려대학교 밴드동아리 TRUSS</h2>
                     <!-- <span class="byline">오픈밴드 크오와아아아앙</span> -->
@@ -78,7 +78,7 @@ Released   : 20130602
                         frameborder="0" allowfullscreen></iframe></span>
 
             </div>
-            <div id="sidebar">
+            <div id="sidebar" style="width: 15% !important;">
                 <div class="box1">
                     <div class="title">
                         <h2>최근 공지사항</h2>
