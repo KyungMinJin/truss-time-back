@@ -27,7 +27,7 @@ Released   : 20130602
 
 <body>
     <div id="wrapper">
-                <div id="header-wrapper">
+        <div id="header-wrapper">
             <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
                     style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
@@ -37,7 +37,7 @@ Released   : 20130602
                     <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
-                        <a href="timetable.php" class="current_page_item" style="height: 100px; line-height: 100px;">
+                        <a href="timetable.php" style="height: 100px; line-height: 100px;">
                             <h2>합주시간표</h2>
                         </a>
                         <!-- </li> -->
