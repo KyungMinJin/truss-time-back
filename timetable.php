@@ -39,20 +39,22 @@ Released   : 20130811
 
 <body>
     <div id="wrapper">
-        <div id="header-wrapper">
-            <div id="menu" class="container">
+                <div id="header-wrapper">
+            <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
-                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto;">
-                    <div style="font-size: 3em; font-weight:600; color:white;"><a href="index.php">TRUSS</a></div>
-                    <div style="display:flex;">
+                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
+                    <div style="font-size: 3em; font-weight:600; color:white;">
+                        <div OnClick="location.href='index.php'">TRUSS</div>
+                    </div>
+                    <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
-                        <a href="timetable.php" class="current_page_item">
+                        <a href="timetable.php" class="current_page_item" style="height: 100px; line-height: 100px;">
                             <h2>합주시간표</h2>
                         </a>
                         <!-- </li> -->
                         <!-- <li> -->
-                        <a href="phones_auth.php">
+                        <a href="phones_auth.php" style="height: 100px; line-height: 100px;">
                             <h2>연락처</h2>
                         </a>
                     </div>

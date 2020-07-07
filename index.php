@@ -27,20 +27,22 @@ Released   : 20130602
 
 <body>
     <div id="wrapper">
-        <div id="header-wrapper">
+                <div id="header-wrapper">
             <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
                     style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
-                    <div style="font-size: 3em; font-weight:600; color:white;"><a href="index.php">TRUSS</a></div>
+                    <div style="font-size: 3em; font-weight:600; color:white;">
+                        <div OnClick="location.href='index.php'">TRUSS</div>
+                    </div>
                     <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
-                        <a href="timetable.php" class="current_page_item">
+                        <a href="timetable.php" class="current_page_item" style="height: 100px; line-height: 100px;">
                             <h2>합주시간표</h2>
                         </a>
                         <!-- </li> -->
                         <!-- <li> -->
-                        <a href="phones_auth.php">
+                        <a href="phones_auth.php" style="height: 100px; line-height: 100px;">
                             <h2>연락처</h2>
                         </a>
                     </div>
@@ -56,7 +58,7 @@ Released   : 20130602
             </div>
         </div>
         <div id="page" class="container">
-            <div id="content" style="width: 75% !important;">
+            <div id="content" style="width: 75% !important;" style="padding: 0 0em 5em 0em;">
                 <div class="title">
                     <h2>고려대학교 밴드동아리 TRUSS</h2>
                     <!-- <span class="byline">오픈밴드 크오와아아아앙</span> -->
