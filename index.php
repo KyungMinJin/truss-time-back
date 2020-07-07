@@ -28,11 +28,11 @@ Released   : 20130602
 <body>
     <div id="wrapper">
         <div id="header-wrapper">
-            <div id="menu" class="container">
+            <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
-                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto;">
+                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
                     <div style="font-size: 3em; font-weight:600; color:white;"><a href="index.php">TRUSS</a></div>
-                    <div style="display:flex;">
+                    <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
                         <a href="timetable.php" class="current_page_item">
@@ -61,7 +61,7 @@ Released   : 20130602
                     <h2>고려대학교 밴드동아리 TRUSS</h2>
                     <!-- <span class="byline">오픈밴드 크오와아아아앙</span> -->
                 </div>
-                <span class="image image-full"><img src="main.png" alt="" /></span>
+                <span class="image image-full"><img src="main.png" alt="" style="width: 60%; margin: 0 auto;" /></span>
                 <h3>학번·전공·실력 무관, 모두를 위한 고려대학교 중앙 밴드 동아리</h3>
                 <p>TRUSS는 고려대학교를 대표하는 중앙 밴드 동아리로, 현재 애기능동아리연합회에 소속되어 이공캠퍼스의 애기능학생회관 지하101호에 자리하고 있습니다.
                     슬로건에서도 알
@@ -188,7 +188,7 @@ Released   : 20130602
         </div>
     </div>
     <div id="portfolio-wrapper">
-        <div id="portfolio" class="container">
+        <div id="portfolio" class="container" style="text-align: inherit;">
             <h1 class="icon icon-tasks" align="center"> 주요 행사</h2>
                 <br><br><br><br>
                 <div id="column1">
@@ -236,7 +236,7 @@ Released   : 20130602
                 </div>
         </div>
     </div>
-    <div id="copyright" class="container">
+    <div id="copyright" class="container" style="padding: 2em 0em;">
         <p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co"
                 rel="nofollow">TEMPLATED</a> | Edited by 28기 진경민</p>
         <ul class="contact">

@@ -202,7 +202,7 @@ mysqli_free_result($data2);
             </div>
         </div>
     </div>
-    <div id="copyright" class="container">
+                <div id="copyright" class="container" style="padding: 2em 0em;">
         <p>&copy; Truss. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co"
                 rel="nofollow">TEMPLATED</a> | Edited by 28기 진경민</p>
         <ul class="contact">
