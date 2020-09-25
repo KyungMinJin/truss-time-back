@@ -31,7 +31,7 @@ Released   : 20130602
             <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
                     style="display:flex; max-width: 1110px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
-                    <div style="font-size: 3em; font-weight:600; color:white;">
+                    <div style="font-size: 3em; font-weight:600;">
                         <div OnClick="location.href='index.php'">TRUSS</div>
                     </div>
                     <div style="display:flex; align-items: center;">

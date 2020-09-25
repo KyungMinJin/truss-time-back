@@ -216,6 +216,7 @@ ul.contact li a.icon-rss:before {
   position: relative;
   overflow: hidden;
   text-align: center;
+  margin-top: 50px;
 }
 
 /*********************************************************************************/
@@ -261,9 +262,11 @@ ul.contact li a.icon-rss:before {
 #menu {
   overflow: hidden;
   margin-bottom: 2em;
-  background: #25292b;
+  background: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  height: 100px;
+  height: 60px;
+  position: fixed;
+  z-index: 100;
 }
 
 #menu ul {
@@ -284,18 +287,15 @@ ul.contact li a.icon-rss:before {
 
   font-weight: 600;
   border: none;
-  color: #fff;
 }
 
 #menu a:hover,
 #menu .current_page_item {
   text-decoration: none;
-  background: #ae0034;
 }
 
 #menu .current_page_item {
   /*background: #FFC31F;*/
-  background: #ae0034;
 }
 
 /** PAGE */
