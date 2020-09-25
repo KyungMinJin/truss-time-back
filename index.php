@@ -60,7 +60,7 @@ Released   : 20130602
         <div id="page" class="container">
             <div id="content" style="width: 75% !important;" style="padding: 0 0em 5em 0em;">
                 <div class="title">
-                    <h2>고려대학교 밴드동아리 TRUSS</h2>
+                    <h2>🎸고려대학교 밴드동아리 TRUSS</h2>
                     <!-- <span class="byline">오픈밴드 크오와아아아앙</span> -->
                 </div>
                 <span class="image image-full"><img src="main.png" alt="" style="width: 60%; margin: 0 auto;" /></span>
