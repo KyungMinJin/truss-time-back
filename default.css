@@ -458,12 +458,18 @@ a:hover {
 #column1,
 #column2 {
   float: left;
+}
+
+#column2 {
   margin-left: 4%;
 }
 
 #column3,
 #column4 {
   float: right;
+}
+
+#column3 {
   margin-right: 4%;
 }
 
