@@ -62,7 +62,7 @@ Released   : 20130811
                 <div id="header-wrapper">
             <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
-                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
+                    style="display:flex; max-width: 1110px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
                     <div style="font-size: 3em; font-weight:600; color:white;">
                         <div OnClick="location.href='index.php'">TRUSS</div>
                     </div>

@@ -42,7 +42,7 @@ Released   : 20130811
                 <div id="header-wrapper">
             <div id="menu" class="container" sty;e="margin: 0">
                 <div id="header-inner"
-                    style="display:flex; max-width: 1080px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
+                    style="display:flex; max-width: 1110px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
                     <div style="font-size: 3em; font-weight:600; color:white;">
                         <div OnClick="location.href='index.php'">TRUSS</div>
                     </div>
@@ -118,7 +118,7 @@ mysqli_free_result($data2);
                 <!-- style="width:100%; margin:0 auto;">-->
                 <h1 style="text-align:center"> 합주 시간표</h1>
                 <div
-                    style="display: flex; flex-direction: row-reverse; max-width: 1080px; margin: 10px auto; vertical-align:middle;">
+                    style="display: flex; flex-direction: row-reverse; max-width: 1110px; margin: 10px auto; vertical-align:middle;">
                     <div
                         style="width: 100px; height: 40px; border: 1px solid black; border-radius: 20px; display: flex; justify-content: center; align-items: center;">
                         <a href="write.php">합주팀 등록</a>
