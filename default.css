@@ -99,7 +99,8 @@ ul.style2 li:first-child {
 }
 .timetable th,
 .timetable td {
-  padding: 10px;
+  font-size: 13px;
+  padding: 5px;
 }
 .timetable tr:hover {
   background-color: #8e8e8e;
