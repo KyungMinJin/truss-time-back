@@ -175,7 +175,7 @@ Released   : 20130602
 						}
 					?>
                 </div>
-                <div class="box4">
+                <!-- <div class="box4">
                     <div class="title">
                         <h2>다운로드</h2>
                     </div>
@@ -185,7 +185,7 @@ Released   : 20130602
                                     width="150px" src="download/android.png" /></a></li>
                     </ul>
 
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
