@@ -312,7 +312,6 @@ ul.contact li a.icon-rss:before {
 #content {
   float: right;
   width: 70%;
-  margin-right: 3%;
 }
 
 a:link {
@@ -339,7 +338,6 @@ a:hover {
 #sidebar {
   float: left;
   width: 20%;
-  margin-left: 2%;
 }
 
 #sidebar .title h2 {
