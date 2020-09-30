@@ -1,8 +1,6 @@
 html,
 body {
   height: 100%;
-  margin-left: 1%;
-  margin-right: 1%;
 }
 
 h1,
@@ -498,4 +496,27 @@ a:hover {
   border-radius: 20px;
   text-align: center;
   color: #272925;
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 0.9rem;
+  }
+  a,
+  p {
+    font-size: 0.7rem;
+  }
+  #page,
+  #header-inner,
+  #portfolio-wrapper {
+    padding-left: 1%;
+    padding-rignt: 1%;
+  }
+  #column1,
+  #column2,
+  #column3,
+  #column4 {
+    width: 100%;
+    float: none;
+  }
 }
