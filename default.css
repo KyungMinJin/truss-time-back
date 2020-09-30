@@ -516,6 +516,8 @@ a:hover {
   #sidebar {
     margin: 0 auto;
     width: 70%;
+    float: none;
+    padding-top: 10px;
   }
   #column1,
   #column2,
