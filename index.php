@@ -242,7 +242,7 @@ Released   : 20130602
     </div>
     <div id="copyright" class="container" style="padding: 2em 0em;">
         <p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co"
-                rel="nofollow">TEMPLATED</a> | Edited by 28기 진경민</p>
+                rel="nofollow">TEMPLATED</a></p>
         <ul class="contact">
             <!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
             <li><a href="https://www.facebook.com/profile.php?id=100009047977821"
