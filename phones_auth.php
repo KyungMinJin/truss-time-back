@@ -90,7 +90,7 @@ Released   : 20130811
         <div>
             <br>
             <div id="header" class="container">
-                <h1 class="icon icon-pencil" style="text-align:center"> 연락처 목록<br><br></h1>
+                <h1 style="text-align:center"> 연락처 목록<br><br></h1>
                 <form action="phones.php" method="post" enctype="multipart/form-data">
                     <table class="table table-bordered" style="width:30%; margin:0 auto;">
                         <tr>
@@ -116,8 +116,8 @@ Released   : 20130811
                 rel="nofollow">TEMPLATED</a></p>
         <ul class="contact">
             <!--<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>-->
-            <li><a href="https://www.facebook.com/profile.php?id=100009047977821"
-                    class="icon icon-facebook"><span></span></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100009047977821"><img src="images/facebook-logo.png"
+                        style="height:40px;" /></a></li>
             <!--<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
 			<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
 			<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
