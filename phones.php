@@ -97,31 +97,33 @@ Released   : 20130811
         </div>
         <div>
             <br>
-            <h1 class="icon icon-pencil" style="text-align:center"> 연락처 목록<br><br></h1>
-            <form action="insert.php" method="post" enctype="multipart/form-data"></form>
-            <div id="header" class="container" style="width:75%; text-align:left;">
-                <a href="addphone.php">
-                    <p style="text-align:right; color:red;">연락처 등록</p>
-                </a>
-                <table class="table table-bordered" style="margin:0 auto;">
-                    <tr class="danger">
-                        <td style="width:20%">기수</td>
-                        <td style="width:25%">이름</td>
-                        <td style="width:45%">연락처</td>
-                        <td></td>
-                    </tr>
-                    <!-- <?php
-	// if($isitOK){
-	// 	include 'db_info.php';
-	// 	$query = "SELECT * FROM phone ORDER BY th DESC";
-	// 	$data = mysqli_query($connect, $query);
-	// 	while($result = mysqli_fetch_array($data)){
-	// 		echo '<tr><td>'.$result[2].'</td><td>'.$result[0].'</td><td>'.$result[1].'</td><td>삭제</td></tr>';
-	// 	}
-	// 	mysqli_free_result($data);
-	// }
-?> -->
-                </table>
+            <div id="header" class="container">
+                <h1 style="text-align:center"> 연락처 목록<br><br></h1>
+                <form action="insert.php" method="post" enctype="multipart/form-data"></form>
+                <div id="header" class="container" style="width:75%; text-align:left;">
+                    <a href="addphone.php">
+                        <p style="text-align:right; color:red;">연락처 등록</p>
+                    </a>
+                    <table class="table table-bordered" style="margin:0 auto;">
+                        <tr class="danger">
+                            <td style="width:20%">기수</td>
+                            <td style="width:25%">이름</td>
+                            <td style="width:45%">연락처</td>
+                            <td></td>
+                        </tr>
+                        <!-- <?php
+        // if($isitOK){
+        // 	include 'db_info.php';
+        // 	$query = "SELECT * FROM phone ORDER BY th DESC";
+        // 	$data = mysqli_query($connect, $query);
+        // 	while($result = mysqli_fetch_array($data)){
+        // 		echo '<tr><td>'.$result[2].'</td><td>'.$result[0].'</td><td>'.$result[1].'</td><td>삭제</td></tr>';
+        // 	}
+        // 	mysqli_free_result($data);
+        // }
+    ?> -->
+                    </table>
+                </div>
             </div>
             </form>
             <br><br>

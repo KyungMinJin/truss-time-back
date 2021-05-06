@@ -89,25 +89,26 @@ Released   : 20130811
         </div>
         <div>
             <br>
-            <h1 class="icon icon-pencil" style="text-align:center"> 연락처 목록<br><br></h1>
-            <form action="phones.php" method="post" enctype="multipart/form-data">
-                <table class="table table-bordered" style="width:30%; margin:0 auto;">
-                    <tr>
-                        <td class="danger" style="text-align: center;">TRUSS 인증</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center;">TRUSS 인증번호: <input type="password" name="truss_ck" size="30"
-                                style="ime-mode:disabled;"></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: center;"><input type="submit" name="b_insert" value="인증"
-                                style="width:50px">
-                            <button type="button" onclick="window.history.go(-1); return false;"
-                                style="width:50px">취소</button></td>
-                    </tr>
-                </table>
-            </form>
-
+            <div id="header" class="container">
+                <h1 class="icon icon-pencil" style="text-align:center"> 연락처 목록<br><br></h1>
+                <form action="phones.php" method="post" enctype="multipart/form-data">
+                    <table class="table table-bordered" style="width:30%; margin:0 auto;">
+                        <tr>
+                            <td class="danger" style="text-align: center;">TRUSS 인증</td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;">TRUSS 인증번호: <input type="password" name="truss_ck" size="30"
+                                    style="ime-mode:disabled;"></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center;"><input type="submit" name="b_insert" value="인증"
+                                    style="width:50px">
+                                <button type="button" onclick="window.history.go(-1); return false;"
+                                    style="width:50px">취소</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
         </div>
     </div>
                 <div id="copyright" class="container" style="padding: 2em 0em;">
