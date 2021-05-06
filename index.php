@@ -72,12 +72,12 @@ Released   : 20130602
                     창조적
                     대학 문화 발전에 기여함을 목적으로 두고 있습니다.</p>
                 <p>동아리의 이름인 TRUSS는 ‘직선봉을 삼각형으로 조립한 골조구조’를 뜻하는 단어로, 1990년대 초 토목공학과 학생회 소모임이었던 시절부터 현재까지 30년
-                    가까이
+                    간
                     유지되며 동아리의 역사성을 상징하고 있습니다.
                 </p>
                 <!-- <p>This is 그냥존나 <strong>Rock Band</strong>! 현재 트러스의 슬로건인 오픈밴드라는 명칭은 중앙 밴드 동아리 중 가입 오디션이 없으며 <del style="color:gray">보컬뽑는다면서 노래방 단체로 가서 못부르는사람은 악기세션으로 돌리자나</del> 가입이 자유로운 밴드라는 점에 기인하여 붙은 명칭이다. 실제로 신입생 가입 기준이 없으며 매년 초에 한 번 신입기수를 뽑지만 학번 제한 같은 것도 없어 신입생과 4~5학번 차이나는 고학번이 동아리 신입으로 가입하기도 한다.</p> -->
-                <!-- youtube default 800:450 -->
-                <span><br><iframe width="680" height="400" src="https://www.youtube.com/embed/UyvpFIXx04c"
+                <!-- youtube default 800:450  -->
+                <span><br><iframe width="680" height="400" src="https://www.youtube.com/watch?v=ZIKsIia7Xn8"
                         frameborder="0" allowfullscreen></iframe></span>
 
             </div>
