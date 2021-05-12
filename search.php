@@ -290,7 +290,7 @@ $replacement = '<br><iframe width="800" height="450" src="https://www.youtube.co
             </div>
             <div id="header" class="container">
                 <br><br>
-                <h1 class="icon icon-pencil" style="text-align:center">댓글</h1><br>
+                <h1  style="text-align:center">댓글</h1><br>
                 <table class="table table-bordered table-hover" style="width:70%; margin:0 auto;">
                     <?php
 	$query = "SELECT no, writer, content FROM reply WHERE teamname='".$teamname."' ORDER BY no ASC";

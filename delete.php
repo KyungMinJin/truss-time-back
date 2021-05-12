@@ -73,7 +73,7 @@ Released   : 20130811
         </div>
         <div>
             <br>
-            <h1 class="icon icon-pencil" style="text-align:center"> 합주팀 삭제<br><br></h1>
+            <h1  style="text-align:center"> 합주팀 삭제<br><br></h1>
             <?php
 	$teamname = $_GET['teamname'];
 	?>

@@ -91,7 +91,7 @@ Released   : 20130811
         </div>
         <div>
             <br>
-            <h1 class="icon icon-pencil" style="text-align:center"> 합주팀 등록<br><br></h1>
+            <h1  style="text-align:center"> 합주팀 등록<br><br></h1>
             <form action="insert.php" method="post" enctype="multipart/form-data" />
             <table class="table table-bordered" style="width:75%; margin:0 auto;">
                 <tr>
