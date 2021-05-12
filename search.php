@@ -101,7 +101,7 @@ $result = mysqli_fetch_array($data);
 ?>
             <br>
             <div id="header" class="container">
-                <h1 class="icon icon-search" style="text-align:center">
+                <h1 style="text-align:center">
                     <?php echo $teamname; if($result['isTemp'] == "true") echo " (임시) ".$result['timelimit']." 까지"; ?>
                 </h1>
                 <br>
