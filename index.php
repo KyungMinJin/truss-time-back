@@ -192,7 +192,7 @@ Released   : 20130602
         </div>
     </div>
     <div id="portfolio-wrapper">
-        <div id="portfolio" class="container" style="text-align: inherit;">
+        <div id="portfolio">
             <h1 class="icon icon-tasks" align="center"> 주요 행사</h2>
                 <br><br><br><br>
                 <div id="column1">
