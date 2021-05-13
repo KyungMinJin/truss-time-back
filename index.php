@@ -189,7 +189,9 @@ Released   : 20130602
 
                 </div> -->
             </div>
-            <div id="portfolio-wrapper">
+        </div>
+    </div>
+    <div id="portfolio-wrapper">
         <div id="portfolio" class="container" style="text-align: inherit;">
             <h1 class="icon icon-tasks" align="center"> 주요 행사</h2>
                 <br><br><br><br>
@@ -237,9 +239,6 @@ Released   : 20130602
                     <!-- <a href="#" class="icon icon-arrow-right button">Read More</a> -->
                 </div>
         </div>
-    </div>
-        </div>
-            
     </div>
     <div id="copyright" class="container" style="padding: 2em 0em;">
         <p>&copy; Untitled. All rights reserved. | Photos by TRUSS | Design by <a href="http://templated.co"

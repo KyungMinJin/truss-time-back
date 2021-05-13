@@ -188,7 +188,8 @@ ul.contact li a.icon-rss:before {
 /** WRAPPER */
 
 #wrapper {
-  background: #ffffff url(images/bg01.png) repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 #footer-wrapper {
@@ -436,9 +437,13 @@ a:hover {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
-  color: #8e8e8e;
+  text-align: inherit;
+  color: #ccc;
 }
 
+#portfolio h1 {
+  color: #fff;
+}
 #portfolio .title h2 {
   font-size: 1.2em;
   color: #fff;
