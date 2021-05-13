@@ -428,8 +428,9 @@ a:hover {
 
 #portfolio-wrapper {
   background: #272925;
-  padding: 6em 0em;
+  padding: 6em 1em;
   clear: both;
+  width: 100%;
 }
 
 #portfolio {
