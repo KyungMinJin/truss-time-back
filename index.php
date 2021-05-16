@@ -87,7 +87,7 @@ Released   : 20130602
                         <h2>최근 공지사항</h2>
                     </div>
                     <ul class="style2">
-                        <li><a href="#">(2020.09.26)디자인 접근성 개선.</a></li>
+                        <li><a href="#">(2020.09.26)디자인 변경</a></li>
                         <li><a href="#">(2020.06.29)합주시간표 디자인 및 내용 수정.</a></li>
                         <li><a href="#">(2019.08.18)합주시간표에 댓글이 달리지 않던 버그를 수정하였습니다.</a></li>
                         <li><a href="#">(2017.05.28)합주팀 상세정보에 세션별 연락처가 표시됩니다.</a></li>
@@ -118,66 +118,66 @@ Released   : 20130602
                 <!-- </ul>
 			</div>
 			<br><br><br> -->
-                <div class="box3">
+                <!--<div class="box3">
                     <div class="title">
                         <h2>오늘 합주</h2>
                     </div>
                     <?php
-						include 'db_info.php';
-						date_default_timezone_set("Asia/Seoul");
-						$week = array("sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday");
-						$today = $week[date('w')];
-						$query = "SELECT ".$today."_start, ".$today."_end, teamname FROM teamtime WHERE ".$today."_start > 0 ORDER BY ".$today."_start";
-						$data = mysqli_query($connect, $query);
-						$none = 0;
-						while($result = mysqli_fetch_array($data)){
-							$none++;
-							echo '<ul class="style2">';
-							$clock = $result[0];
-							$hour = (int)($clock / 100);
-							$min = $clock % 100;
-							$time = "오후 ";
-							if($hour < 12){
-								$time = "오전 ";
-							}
-							else if($hour >12){
-								$hour -= 12;
-							}
-							if($min == 0){
-								$minute = "00";
-							}
-							else{
-								$minute = "30";
-							}
-							$time .= $hour.":".$minute;
+						// include 'db_info.php';
+						// date_default_timezone_set("Asia/Seoul");
+						// $week = array("sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday");
+						// $today = $week[date('w')];
+						// $query = "SELECT ".$today."_start, ".$today."_end, teamname FROM teamtime WHERE ".$today."_start > 0 ORDER BY ".$today."_start";
+						// $data = mysqli_query($connect, $query);
+						// $none = 0;
+						// while($result = mysqli_fetch_array($data)){
+						// 	$none++;
+						// 	echo '<ul class="style2">';
+						// 	$clock = $result[0];
+						// 	$hour = (int)($clock / 100);
+						// 	$min = $clock % 100;
+						// 	$time = "오후 ";
+						// 	if($hour < 12){
+						// 		$time = "오전 ";
+						// 	}
+						// 	else if($hour >12){
+						// 		$hour -= 12;
+						// 	}
+						// 	if($min == 0){
+						// 		$minute = "00";
+						// 	}
+						// 	else{
+						// 		$minute = "30";
+						// 	}
+						// 	$time .= $hour.":".$minute;
 
-							$clock = $result[1];
-							$hour = (int)($clock / 100);
-							$min = $clock % 100;
-							$time2 = "오후 ";
-							if($hour < 12){
-								$time2 = "오전 ";
-							}
-							else if($hour >12){
-								$hour -= 12;
-							}
-							if($min == 0){
-								$minute = "00";
-							}
-							else{
-								$minute = "30";
-							}
-							$time2 .= $hour.":".$minute;
+						// 	$clock = $result[1];
+						// 	$hour = (int)($clock / 100);
+						// 	$min = $clock % 100;
+						// 	$time2 = "오후 ";
+						// 	if($hour < 12){
+						// 		$time2 = "오전 ";
+						// 	}
+						// 	else if($hour >12){
+						// 		$hour -= 12;
+						// 	}
+						// 	if($min == 0){
+						// 		$minute = "00";
+						// 	}
+						// 	else{
+						// 		$minute = "30";
+						// 	}
+						// 	$time2 .= $hour.":".$minute;
 
-							echo '<li>'.$time." ~ ".$time2.' : <a href="search.php?teamname='.$result[2].'">'.$result[2].'</a> 팀</li></ul>';
-						}
-						mysqli_free_result($data);
-						if($none == 0){
-							echo '<ul class="style2"><li>오늘은 합주가 없습니다.</li></ul>';
-						}
+						// 	echo '<li>'.$time." ~ ".$time2.' : <a href="search.php?teamname='.$result[2].'">'.$result[2].'</a> 팀</li></ul>';
+						// }
+						// mysqli_free_result($data);
+						// if($none == 0){
+						// 	echo '<ul class="style2"><li>오늘은 합주가 없습니다.</li></ul>';
+						// }
 					?>
                 </div>
-                <!-- <div class="box4">
+                 <div class="box4">
                     <div class="title">
                         <h2>다운로드</h2>
                     </div>
