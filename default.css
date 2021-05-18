@@ -291,7 +291,7 @@ ul.contact li a.icon-rss:before {
 #menu a {
   text-decoration: none;
   padding: 0 40px;
-
+  color: #fff;
   font-weight: 600;
   border: none;
 }
