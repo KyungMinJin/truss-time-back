@@ -81,10 +81,10 @@ Released   : 20130602
                         frameborder="0" allowfullscreen></iframe></span>
 
             </div>
-            <div id="sidebar" style="width: 15% !important;">
+            <div id="sidebar">
                 <div class="box1">
                     <div class="title">
-                        <h2>최근 공지사항</h2>
+                        <h2>합게부의 피땀눈물</h2>
                     </div>
                     <ul class="style2">
                         <li><a href="#">(2021.05.19)트러스 색 짙은 초록</a></li>
