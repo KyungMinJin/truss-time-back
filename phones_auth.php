@@ -62,7 +62,7 @@ Released   : 20130811
                 <div id="header-inner"
                     style="display:flex; max-width: 1110px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
                     <div>
-                        <h2 id="truss-header" OnClick="location.href='index.php'">TRUSS</h2>
+                        <h1 id="truss-header" OnClick="location.href='index.php'">TRUSS</h1>
                     </div>
                     <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
