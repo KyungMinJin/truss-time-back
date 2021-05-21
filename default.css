@@ -223,6 +223,7 @@ ul.contact li a.icon-rss:before {
   color: #fff;
   cursor: pointer;
   font-weight: 900;
+  padding: 0 40px;
 }
 
 /*********************************************************************************/

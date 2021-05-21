@@ -127,14 +127,14 @@ mysqli_free_result($data2);
                 <div class="timetable" style="width: 100vw">
                     <table class="table">
                         <tr align="center">
-                            <th width="80">시작 시간</td>
-                            <th width="110">월</th>
-                            <th width="110">화</th>
-                            <th width="110">수</th>
-                            <th width="110">목</th>
-                            <th width="110">금</th>
-                            <th width="110">토</th>
-                            <th width="110">일</th>
+                            <th width="60">시작 시간</td>
+                            <th width="150">월</th>
+                            <th width="150">화</th>
+                            <th width="150">수</th>
+                            <th width="150">목</th>
+                            <th width="150">금</th>
+                            <th width="150">토</th>
+                            <th width="150">일</th>
                         </tr>
                         <?php
 	$query = "SELECT * FROM timetable";
