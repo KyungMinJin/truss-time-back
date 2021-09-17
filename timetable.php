@@ -127,7 +127,7 @@ mysqli_free_result($data2);
                 <div class="timetable" style="width: 100vw">
                     <table class="table">
                         <tr align="center">
-                            <th width="60">시작 시간</td>
+                            <th width="80">시작 시간</td>
                             <th width="150">월</th>
                             <th width="150">화</th>
                             <th width="150">수</th>
