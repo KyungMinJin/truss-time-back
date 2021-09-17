@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gowun+Dodum&family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@500&display=swap" rel="stylesheet">
 <title>고려대학교 TRUSS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
