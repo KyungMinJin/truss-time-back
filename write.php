@@ -64,18 +64,18 @@ Released   : 20130811
                 <div id="header-inner"
                     style="display:flex; max-width: 1110px; justify-content: space-between; align-items:center; margin: 0 auto; height: 100%;">
                     <div>
-                        <h1 id="truss-header" OnClick="location.href='index.php'">TRUSS</h1>
+                        <h1 id="truss-header" OnClick="location.href='index.php'" style="font-size: 32px;">TRUSS</h1>
                     </div>
                     <div style="display:flex; align-items: center;">
                         <!-- <li><a href="miguhyun.php">공지사항</a></li> -->
                         <!-- <li class="current_page_item"> -->
-                        <a href="timetable.php" class="current_page_item" style="height: 100px; line-height: 100px;">
-                            <h2>합주시간표</h2>
+                        <a href="timetable.php" class="current_page_item" style="height: 100px; line-height: 100px !important;">
+                            <h2 style="line-height: 100px !important; font-weight: bold; font-size: 24px;">합주시간표</h2>
                         </a>
                         <!-- </li> -->
                         <!-- <li> -->
-                        <a href="phones_auth.php" style="height: 100px; line-height: 100px;">
-                            <h2>연락처</h2>
+                        <a href="phones_auth.php" style="height: 100px; line-height: 100px !important;">
+                            <h2 style="line-height: 100px !important; font-weight: bold; font-size: 24px;">연락처</h2>
                         </a>
                     </div>
                     <!-- </li> -->
@@ -91,7 +91,7 @@ Released   : 20130811
         </div>
         <div>
             <br>
-            <h1  style="text-align:center"> 합주팀 등록<br><br></h1>
+            <h1  style="text-align:center; margin-top: 50px;"> 합주팀 등록<br><br></h1>
             <form action="insert.php" method="post" enctype="multipart/form-data" />
             <table class="table table-bordered" style="width:75%; margin:0 auto;">
                 <tr>
